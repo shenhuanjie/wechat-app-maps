@@ -1,0 +1,11 @@
+<!-- pages/maps/maps.wxml -->
+<view class="container">
+  <view class="top">
+    <view class='address'>{{pois.address}}</view>
+    <view class='location'>东经：{{pois.location.lng}},北纬：{{pois.location.lat}}</view>
+    <view wx:for="{{[0,1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
+      <view>{{pois.pois[i].title}} {{pois.pois[i].category}}</view>
+    </view>
+  </view>
+  <map longitude="{{longitude}}" latitude='{{latitude}}' style='width:710rpx;height:540rpx'></map>
+</view>

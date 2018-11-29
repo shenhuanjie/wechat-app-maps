@@ -1,0 +1,12 @@
+/* pages/maps/maps.wxss */
+.top{
+  font-size: 28rpx;
+  background: rgb(230, 230, 230);
+  color: rgb(54, 54, 54);
+  padding: 20rpx;
+  margin: 20rpx 0;
+}
+.address,.location{
+  font-size: 32rpx;
+  line-height: 32rpx;
+}
